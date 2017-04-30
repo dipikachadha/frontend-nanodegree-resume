@@ -9,12 +9,12 @@ var bio = {
     "role" : "Web Developer",
     "contacts" : {
         "mobile":"987654321",
-        "email":"dipika.chadha@gmail.com",
-        "github":"link",
-        "location":"United States"
+        "email":"mailto:dipika.chadha@gmail.com",
+        "github":"https://github.com/dipikachadha",
+        "location":"North Carolina, United States"
     },
     "Welcomemsg": "Hello, This is my Resume",
-    "skills" : ["HTML", "CSS", "JAVASCRIPT"],
+    "skills" : ["HTML", "CSS", "Bootstrap", "JS", "SQL", "Visual Basic"],
     "biopic" : "images/fry.jpg"
 };
 
