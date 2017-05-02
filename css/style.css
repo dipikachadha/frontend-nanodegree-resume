@@ -143,8 +143,9 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+
   padding: 10px;
+  text-align: left;
 }
 
 .flex-column {
@@ -155,7 +156,13 @@ a {
 }
 
 .center-content {
-  padding: 2.5% 5%;
+    padding: 2.5% 5%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
 }
 
 ul {
@@ -163,7 +170,7 @@ ul {
 }
 
 .biopic {
-  float: left;
+  float: center;
   padding: 10px;
   width: 200px;
   display: none;
@@ -174,7 +181,8 @@ img {
 }
 
 span {
-  padding: 5px;
+  padding: 10px;
+  color: white;
 }
 
 #lets-connect {
@@ -215,8 +223,21 @@ span {
 
 #mapDiv {
   height: 400px;
-  width: 100%;
+  width: 75%;
   padding-bottom: 5%;
+  margin-left: auto;
+}
+
+#workExperience,
+#projects,
+#education,
+#lets-connect {
+    margin-left: auto;
+    width: 75%;
+}
+
+#name {
+    display: inline-block;
 }
 
 @media only screen and (min-width: 750px) {
