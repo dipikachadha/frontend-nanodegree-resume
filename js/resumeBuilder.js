@@ -26,7 +26,7 @@ var education = {
         "name" : "RGPV",
         "location":"India",
         "degree" :"BTech",
-        "majors" : "Electrical & Eclectronics",
+        "majors" :["Electrical", "Electronics"],
         "dates" : "24-06-2010"
       }
   ],
