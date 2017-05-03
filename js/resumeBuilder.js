@@ -19,7 +19,8 @@ var education = {
         "location":"India",
         "degree" :"SSC",
         "majors" :["Maths","Physics","Chemistry"],
-        "dates" : "24-11-2006"
+        "dates" : "24-11-2006",
+        "url" : "not available"
       },
       {
         "name" : "RGPV",
@@ -46,7 +47,7 @@ var work = {
       "title" : "Assistant Manager",
       "location" : "India",
       "dates" : "In Progress",
-      "descripton" : ["Credit Monitoring", "Risk Management","Operations"]
+      "descripton" : "Worked in credit, loans & advances section. Dealing with the day to day banking."
     }
   ]
 };
@@ -143,8 +144,8 @@ projects.display = function () {
     $(".project-entry:last").append(formattedProjectDescription);
 
     if (projects.projects[i].images.length > 0) {
-      for (var image in projects.projects[i].images) {
-        var formattedImages = HTMLprojectImage.replace("%data%", projects.projects[i].images[image]);
+      for (var z = 0; z < projects.projects[i].images.length; z++) {
+        var formattedImages = HTMLprojectImage.replace("%data%", projects.projects[i].images[z]);
         $(".project-entry:last").append(formattedImages);
       }
     }
